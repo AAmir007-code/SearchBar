@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Autocomplete Search Box | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Type to search..">
+        <div class="icon"><i class="fas fa-search"></i></div>
+        <div class="types autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+      </div>
+      <div class="types">
+        <form action="#">
+          <input type="radio" name="types" id="type1" value="type1" checked> Type 1 
+          <input type="radio" name="types" id="type2" value="type2"> Type 2 
+          <input type="radio" name="types" id="type3" value="type3"> Type 3
+          <input type="radio" name="types" id="type4" value="type4"> Type 4
+          <input type="radio" name="types" id="type5" value="type5"> Type 5  
+        </form>
+      </div>
+    </div>
+
+    <script src="js/suggestions.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
